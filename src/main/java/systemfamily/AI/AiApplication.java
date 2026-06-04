@@ -1,4 +1,4 @@
-package bookstore.AI;
+package systemfamily.AI;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

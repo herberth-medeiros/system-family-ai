@@ -1,6 +1,6 @@
-package bookstore.AI.service;
+package systemfamily.AI.service;
 
-import bookstore.AI.dto.ChatResponseDto;
+import systemfamily.AI.dto.ChatResponseDto;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;
 

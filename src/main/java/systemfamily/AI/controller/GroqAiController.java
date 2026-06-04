@@ -1,8 +1,8 @@
-package bookstore.AI.controller;
+package systemfamily.AI.controller;
 
-import bookstore.AI.dto.ChatRequestDto;
-import bookstore.AI.dto.ChatResponseDto;
-import bookstore.AI.service.GroqAiService;
+import systemfamily.AI.dto.ChatRequestDto;
+import systemfamily.AI.dto.ChatResponseDto;
+import systemfamily.AI.service.GroqAiService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

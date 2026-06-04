@@ -1,4 +1,4 @@
-package bookstore.AI;
+package systemfamily.AI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

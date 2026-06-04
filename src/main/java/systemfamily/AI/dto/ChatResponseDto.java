@@ -1,4 +1,4 @@
-package bookstore.AI.dto;
+package systemfamily.AI.dto;
 
 import lombok.Data;
 
