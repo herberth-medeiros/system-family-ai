@@ -20,6 +20,6 @@ public class GroqAiController {
 
     @PostMapping("/chat")
     public ChatResponseDto chat(@RequestBody ChatRequestDto request) {
-        return groqAiService.perguntar(request.getMessage());
+        return groqAiService.process(request.getMessage());
     }
 }

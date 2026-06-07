@@ -13,13 +13,19 @@ public class GroqAiService {
         this.chatClient = builder.build();
     }
 
-    public ChatResponseDto perguntar(String mensagem) {
-        String resposta = chatClient
+    public ChatResponseDto process(String message) {
+        String response = chatClient
                 .prompt()
-                .user(mensagem)
+                .system("""
+                        Você é um assistente para um aplicativo familiar.
+                        Identifique se o usuário quer criar uma despesa,
+                        criar uma tarefa ou consultar um resumo.
+                        Responda em JSON.
+                        """)
+                .user(message)
                 .call()
                 .content();
 
-        return new ChatResponseDto(resposta);
+        return new ChatResponseDto(response);
     }
 }
